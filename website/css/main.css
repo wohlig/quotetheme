@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,200italic,300italic,400italic);
+@import url(http://fonts.googleapis.com/css?family=Overlock:700);
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.section {
+    background: #fff;
+    background-size: cover;
+}
+
+.section.home {
+    background: #fff url("../img/background.jpg") fixed;
+    background-size: cover;
+}
+
+.section.home .header {
+    margin: 0 auto;
+    width: 300px;
+}
+.section.home .header .logo {
+    padding:30px;
+}
+.section.home .content {
+    width: 600px;
+    margin: 0px auto;
+}
+.section.home .textslider {
+    padding: 5% 0;
+}
+.loginbutton {
+    margin: 25px 0;
+}
+
+.loginbutton a.button {
+    background: #3E659E;
+    width: 100%;
+    display: block;
+    padding: 15px 15px;
+    text-align: center;
+    color: white;
+}
+.loginbutton a.button.twitter {
+    background: #1FAEEA;
+}
+.loginbutton a.button.google {
+    background: #E91F1F;
+}
+.loginbutton .button i.fa {
+    float: left;
+    margin: 3px 10px 0px 0px;
+}
